@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.naghmeh.memorygame.Game"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:orientation="vertical"
+        android:useDefaultMargins="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1.03"
+        android:background="#080404">
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img3"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img4"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img5"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img6"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img7"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img8"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img9"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img10"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img11"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img12"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img13"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img14"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img15"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img16"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img17"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img18"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img19"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/img20"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:background="#c37d7d"
+            android:clickable="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:visibility="visible"
+            android:onClick="clicked" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Score:"
+            android:id="@+id/score"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:id="@+id/scoreHolder"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:id="@+id/resetButton"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="Reset" />
+    </GridLayout>
+
+
+</LinearLayout>
